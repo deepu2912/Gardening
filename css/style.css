@@ -4423,6 +4423,7 @@ width:100%;
 }
 .picframe img{
 	width:100%;
+	height: 170px; /* byDeepanshu */
 }
 
 .picframe:hover .overlay-v{
