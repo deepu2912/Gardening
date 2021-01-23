@@ -6811,3 +6811,24 @@ display:table;
 		display:none;
 	}
 	}
+
+/* 
+	.widget span strong {
+		color: #fff;
+		font-weight: 600;
+	} */
+	#cta .de_testi blockquote:before{
+		background-color: #fff !important;
+	}
+
+	#cta .de_testi.s2 blockquote:before {
+		color: #8bad01;
+	}
+	#cta .de_testi.s2 blockquote {
+		background: #ffffff;
+		color: #606060;
+	}
+
+	#cta .text-light, .text-light p {
+		color: #100e0e;
+	}
