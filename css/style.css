@@ -6832,3 +6832,31 @@ display:table;
 	#cta .text-light, .text-light p {
 		color: #100e0e;
 	}
+
+	.topbar.d-md-block{
+		background-size: cover;
+		background-color: #45b03f;
+		padding: 13px;
+		height: 50px;
+	}
+	.whatsappPng{
+		width: 14%;
+		margin-top: -15px;
+		margin-left: 7px;
+	}
+
+	@media (min-width: 768px){
+		.topbar.d-md-block{
+			background-size: cover;
+			background-color: #45b03f;
+			padding: 13px;
+			height: 75px;
+		}
+		.whatsappPng{
+			width: 9%;
+			margin-top: -15px;
+			margin-left: 7px;
+		}
+	}
+
+	
