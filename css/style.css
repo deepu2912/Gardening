@@ -6800,7 +6800,9 @@ display:table;
 	 
 	}
 	
-	
+	.socialCss{
+		text-align: end;
+	}
 	/* -------------------------------------------------- 
 	design for 320px
 	/* -------------------------------------------------- */
@@ -6809,7 +6811,12 @@ display:table;
 	float:left;
 	width:100% !important;
 	}
-	 
+	.CopyrightCss{
+		text-align: center;
+	}
+	.socialCss{
+		text-align: center;
+	}
 
 	header, header.fixed {
 	 
@@ -6885,4 +6892,29 @@ display:table;
 		}
 	}
 
-	
+	.footer_column_title {
+		font-size: 18px;
+		font-weight: 500;
+		color: #FFFFFF;
+		padding-top: 15px;
+	}
+	.footer_column_content {
+		margin-top: 32px;
+	}
+	.footer_column_content ul {
+		list-style: none;
+		margin-bottom: 0px;
+		padding-left: 0;
+	}.footer_list_item {
+		margin-bottom: 11px;
+	}.footer_list_item a {
+		font-size: 14px;
+		color: #a5a5a5;
+		-webkit-transition: all 200ms ease;
+		-moz-transition: all 200ms ease;
+		-ms-transition: all 200ms ease;
+		-o-transition: all 200ms ease;
+		transition: all 200ms ease;
+	}
+
+ 
