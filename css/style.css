@@ -6112,12 +6112,11 @@ display:table;
 	margin-top:0;	
 	background:#000000;
 	padding:15px 0 15px 0;
-	height: 140px;
+	height: 115px;
 	position: fixed;
 	}
-	#content {
-		 
-		margin-top: 18%;
+	#content { 
+		margin-top: 15%;
 	}
 	.whatsappContainer{
 		display: block !important;
@@ -6883,7 +6882,7 @@ display:table;
 			background-size: cover;
 			background-color: #45b03f;
 			padding: 13px;
-			height: 75px;
+			height: 55px;
 		}
 		.whatsappPng{
 			width: 9%;
