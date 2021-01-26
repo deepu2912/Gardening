@@ -6901,13 +6901,18 @@ display:table;
 	.footer_column_content {
 		margin-top: 32px;
 	}
+
 	.footer_column_content ul {
 		list-style: none;
 		margin-bottom: 0px;
 		padding-left: 0;
-	}.footer_list_item {
+	}
+
+	.footer_list_item {
 		margin-bottom: 11px;
-	}.footer_list_item a {
+	}
+	
+	.footer_list_item a {
 		font-size: 14px;
 		color: #a5a5a5;
 		-webkit-transition: all 200ms ease;
