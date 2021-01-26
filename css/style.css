@@ -6112,6 +6112,17 @@ display:table;
 	margin-top:0;	
 	background:#000000;
 	padding:15px 0 15px 0;
+	height: 140px;
+	position: fixed;
+	}
+	#content {
+		 
+		margin-top: 18%;
+	}
+	.whatsappContainer{
+		display: block !important;
+		text-align: center;
+		margin-top: -15px;
 	}
 	
 	#de-sidebar{
@@ -6783,9 +6794,10 @@ display:table;
 	design for 480px
 	/* -------------------------------------------------- */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
 	.container{padding-left:30px; padding-right:30px;}
 	.feature-box-image,.pricing-box{margin-bottom:30px;}
-	
+	 
 	}
 	
 	
@@ -6797,7 +6809,18 @@ display:table;
 	float:left;
 	width:100% !important;
 	}
-	
+	 
+
+	header, header.fixed {
+	 
+		height: 115px;
+	}
+	header .container .col-md-12{
+		margin-top: 7px;
+	}
+	#content {
+		margin-top: 27%;
+	}
 	/*.item{
 	font-size:32px;
 	line-height:32px;
@@ -6833,6 +6856,9 @@ display:table;
 		color: #100e0e;
 	}
 
+	.whatsappContainer{
+		display: none;
+	}
 	.topbar.d-md-block{
 		background-size: cover;
 		background-color: #45b03f;
