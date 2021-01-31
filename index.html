@@ -288,7 +288,9 @@
                                             <span class="project-name">Our Project #1</span>
                                         </span>
                                     </span>
-                                    <img src="https://images.pexels.com/photos/1453499/pexels-photo-1453499.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                                    <!-- <img src="https://images.pexels.com/photos/1453499/pexels-photo-1453499.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                                        class="img-responsive img-rounded" alt=""> -->
+                                        <img src="images/services/Land_mowing.jpeg"
                                         class="img-responsive img-rounded" alt="">
                                 </a>
                             </div>
@@ -305,7 +307,9 @@
                                             <span class="project-name">Our Project #1</span>
                                         </span>
                                     </span>
-                                    <img src="https://images.pexels.com/photos/4270176/pexels-photo-4270176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                    <!-- <img src="https://images.pexels.com/photos/4270176/pexels-photo-4270176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        class="img-responsive img-rounded" alt=""> -->
+                                        <img src="images/services/Pruning.jpeg"
                                         class="img-responsive img-rounded" alt="">
                                 </a>
                             </div>
@@ -322,7 +326,7 @@
                                             <span class="project-name">Our Project #1</span>
                                         </span>
                                     </span>
-                                    <img src="https://images.pexels.com/photos/5760/bench-garden-grass-evening.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                    <img src="images/services/Headging.jpg"
                                         class="img-responsive img-rounded" alt="">
                                 </a>
                             </div>
@@ -339,8 +343,11 @@
                                             <span class="project-name">Our Project #1</span>
                                         </span>
                                     </span>
-                                    <img src="https://images.pexels.com/photos/1023234/pexels-photo-1023234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                                        class="img-responsive img-rounded" alt="">
+                                    <!-- <img src="https://images.pexels.com/photos/1023234/pexels-photo-1023234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                        class="img-responsive img-rounded" alt=""> -->
+                                        <!-- <img src="https://images.pexels.com/photos/7283/garden.jpg?auto=compress&cs=tinysrgb&dpr=1&w=1260"
+                                        class="img-responsive img-rounded" alt=""> -->
+                                        <img src="images/services/gardening.jpg" class="img-responsive img-rounded" alt="">
                                 </a>
                             </div>
                             <div class="spacer-single"></div>
@@ -377,7 +384,9 @@
                                             <span class="project-name">Our Project #1</span>
                                         </span>
                                     </span>
-                                    <img src="https://cdn.pixabay.com/photo/2020/03/27/19/14/plant-protection-4974643_960_720.jpg"
+                                    <!-- <img src="https://cdn.pixabay.com/photo/2020/03/27/19/14/plant-protection-4974643_960_720.jpg"
+                                        class="img-responsive img-rounded" alt=""> -->
+                                        <img src="images/services/Weed Spraying.jpg"
                                         class="img-responsive img-rounded" alt="">
                                 </a>
                             </div>
@@ -394,9 +403,11 @@
                                             <span class="project-name">Our Project #1</span>
                                         </span>
                                     </span>
-                                    <img src="https://www.milorganite.com/application/files/2015/0334/3784/BroadcastSpreader700x350-min.jpg"
+                                    <!-- <img src="https://www.milorganite.com/application/files/2015/0334/3784/BroadcastSpreader700x350-min.jpg"
+                                        class="img-responsive img-rounded" alt=""> -->
+                                        <img src="images/services/Lawn Fertilizing.jpg"
                                         class="img-responsive img-rounded" alt="">
-                                </a>
+                                    </a>
                             </div>
                             <div class="spacer-single"></div>
                             <h3>Lawn Fertilising</h3>
@@ -410,7 +421,9 @@
                                             <span class="project-name">Our Project #1</span>
                                         </span>
                                     </span>
-                                    <img src="https://live.staticflickr.com/877/27270904578_1a14c9e4d5_b.jpg"
+                                    <!-- <img src="https://live.staticflickr.com/877/27270904578_1a14c9e4d5_b.jpg"
+                                        class="img-responsive img-rounded" alt=""> -->
+                                        <img src="images/services/RideOnMowing.jpg"
                                         class="img-responsive img-rounded" alt="">
                                 </a>
                             </div>
@@ -449,7 +462,8 @@
                         <div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="300ms"
                             style="visibility: visible; animation-duration: 1.5s; animation-delay: 300ms; animation-name: fadeInUp;">
                             <div class="why-choose-img">
-                                <img src="https://images.freeimages.com/images/large-previews/cc6/garden-1378331.jpg" alt="">
+                                <img src="https://images.freeimages.com/images/large-previews/cc6/garden-1378331.jpg"
+                                    alt="">
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeInUp align-self-center" data-wow-duration="1.5s"
@@ -919,7 +933,17 @@
     <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
     <script src="js/typed.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
+
+        $(document).ready(function (e) {
+            $('#section-services.picframe a').attr('href', '#')
+        })
+
+        $('#section-services.picframe a').click(function (e) {
+            e.preventDefault();
+        })
+
         $(function () {
             // jquery typed plugin
             $(".typed").typed({
